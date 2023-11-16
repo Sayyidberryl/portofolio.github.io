@@ -1,0 +1,320 @@
+ @media screen and (max-width: 670px) {
+     .card {
+         width: 100%;
+     }
+
+
+     main .fotokonten img {
+         width: 500px;
+         display: flex;
+         border-radius: 5%;
+     }
+
+
+ }
+
+ @media screen and (max-width: 1200px) {
+     main {
+         max-width: 1000px;
+         width: 100%;
+     }
+
+
+     main .fotokonten img {
+         width: 600px;
+         display: flex;
+         border-radius: 5%;
+     }
+ }
+
+ @media screen and (max-width: 1000px) {
+     .card {
+         width: 100%;
+     }
+
+
+     main .fotokonten img {
+         width: 500px;
+         display: flex;
+         border-radius: 5%;
+     }
+
+     aside header figure img {
+         width: 230px;
+         border-radius: 50%;
+         border: 1px solid yellow;
+     }
+ }
+
+ @media screen and (max-width: 850px) {
+    .card {
+        width: 90%;
+    }
+
+
+    main .fotokonten img {
+        width: 370px;
+        display: flex;
+        border-radius: 5%;
+    }
+
+    aside header figure img {
+        width: 170px;
+        border-radius: 50%;
+        border: 1px solid yellow;
+    }
+
+}
+
+ @media screen and (max-width: 800px) {
+     .card {
+         width: 100%;
+     }
+
+
+     main .fotokonten img {
+         width: 400px;
+         display: flex;
+         border-radius: 5%;
+     }
+
+     aside header figure img {
+         width: 200px;
+         border-radius: 50%;
+         border: 1px solid yellow;
+     }
+
+ }
+
+ @media screen and (max-width: 680px) {
+     .card {
+         width: 100%;
+     }
+
+
+     main .fotokonten img {
+         width: 300px;
+         display: flex;
+         border-radius: 5%;
+     }
+
+     aside header figure img {
+         width: 150px;
+         border-radius: 50%;
+         border: 1px solid yellow;
+     }
+
+     aside h2 {
+         font-size: 20px;
+     }
+
+ }
+
+ @media screen and (max-width: 525px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .isiartikel {}
+
+    main {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        padding: 0;
+        margin-top: 100px;
+        flex-direction: column;
+
+    }
+
+    main .fotokonten img {
+        width: 350px;
+        display: flex;
+        border-radius: 5%;
+    }
+
+    aside header figure img {
+        width: 250px;
+        border-radius: 50%;
+        border: 1px solid yellow;
+    }
+
+    aside {
+        text-align: center;
+        justify-content: center;
+    }
+
+    aside h2 {
+        font-size: 20px;
+    }
+
+    aside table {
+        font-size: 10px;
+    }
+
+    .fotokonten {
+        display: flex;
+        justify-content: center;
+    }
+
+    article p {
+        font-size: 14px;
+    }
+
+    article {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header {
+        /* width: 50%; */
+        font-size: 50%;
+    }
+
+    footer {
+        font-size: 50%;
+    }
+
+    header.navbar-container .nav-list ul {
+       gap: 1rem;
+       font-size: 50%;
+   }
+    header.navbar-container .nav-list li a {
+       font-size: 13px;
+   }
+   header.navbar-container .Title {
+       font-size: 10px;
+   }
+
+   aside header article  h2{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+
+   aside {
+       margin: 0;
+       order: -4;
+   }
+
+   aside figure {
+       display: flex;
+       justify-content: center;
+   }
+
+ }
+
+ @media screen and (max-width: 391px) {
+     body {
+         margin: 0;
+         padding: 0;
+     }
+
+     .isiartikel {}
+
+     main {
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         justify-content: space-around;
+         padding: 0;
+         margin-top: 100px;
+
+     }
+
+     main .fotokonten img {
+         width: 300px;
+         display: flex;
+         border-radius: 5%;
+     }
+
+     aside header figure img {
+         width: 200px;
+         border-radius: 50%;
+         border: 1px solid yellow;
+     }
+
+     aside {
+         text-align: center;
+         justify-content: center;
+     }
+
+     aside h2 {
+         font-size: 20px;
+     }
+
+     aside table {
+         font-size: 10px;
+     }
+
+     .fotokonten {
+         display: flex;
+         justify-content: center;
+     }
+
+     article p {
+         font-size: 12px;
+     }
+
+     article {
+         width: 250px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+     }
+
+     .card {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         align-items: center;
+     }
+
+     header {
+         /* width: 50%; */
+         font-size: 50%;
+     }
+
+     footer {
+         font-size: 50%;
+     }
+
+     header.navbar-container .nav-list ul {
+        gap: 1rem;
+        font-size: 50%;
+    }
+     header.navbar-container .nav-list li a {
+        font-size: 13px;
+    }
+    header.navbar-container .Title {
+        font-size: 10px;
+    }
+
+    aside header article  h2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    aside {
+        margin: 0;
+        order: -4;
+    }
+
+    aside figure {
+        display: flex;
+        justify-content: center;
+    }
+
+ }
