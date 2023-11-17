@@ -267,7 +267,7 @@
      }
 
      article {
-         width: 250px;
+         width: 280px;
          display: flex;
          flex-direction: column;
          justify-content: center;
@@ -286,7 +286,7 @@
      }
 
      footer {
-         font-size: 50%;
+         font-size: 70%;
      }
 
      header.navbar-container .nav-list ul {
